@@ -1,0 +1,10 @@
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.Form1.resources
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\Users\nenad\Documents\GitHub\si2021-projekat-nosferatu\PresentationLayer\obj\Debug\PresentationLayer.pdb
