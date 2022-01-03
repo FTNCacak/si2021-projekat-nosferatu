@@ -12,6 +12,6 @@ public class BusinessLayer
 	}
 	private string insert_B(Donor donor)
 		{
-		insert_D(donor);
+		return (insert_D(donor) == false) ? "Donor nije upisan u bazu. Proverite da li ste popunili sva polja." : "Donor je uspesno upisan u bazu.";
 		}
 }
