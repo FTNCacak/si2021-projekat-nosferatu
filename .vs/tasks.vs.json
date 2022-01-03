@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-BusinessLayer",
+      "appliesTo": "ProjectNosferatu/BusinessLayer/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-BusinessLayer",
+      "appliesTo": "ProjectNosferatu/BusinessLayer/BusinessLayer.cs",
+      "type": "launch"
+    }
+  ]
+}

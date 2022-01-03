@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProjectNosferatu",
+    "\\ProjectNosferatu\\BusinessLayer"
   ],
-  "SelectedNode": "\\C:\\Users\\nenad\\Documents\\GitHub\\si2021-projekat-nosferatu",
+  "SelectedNode": "\\ProjectNosferatu\\BusinessLayer\\BusinessLayer.cs",
   "PreviewInSolutionExplorer": false
 }
