@@ -8,12 +8,10 @@ public class BusinessLayer
 {
 	public class BusinessLayer()
 	{
-		public void test()
-    {
-		System.Console.WriteLine("Hello World!");
-		System.Console.WriteLine("Hello World!");
-
+		
 	}
-
-}
+	private string insert_B(Donor donor)
+		{
+		insert_D(donor);
+		}
 }
