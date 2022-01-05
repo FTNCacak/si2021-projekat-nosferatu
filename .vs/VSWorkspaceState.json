@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\ProjectNosferatu",
-    "\\ProjectNosferatu\\BusinessLayer"
+    "\\ProjectNosferatu\\BusinessLayer",
+    "\\ProjectNosferatu\\DataLayer",
+    "\\ProjectNosferatu\\PresentationLayer"
   ],
-  "SelectedNode": "\\ProjectNosferatu\\BusinessLayer\\BusinessLayer.cs",
+  "SelectedNode": "\\ProjectNosferatu\\ProjectNosferatu.sln",
   "PreviewInSolutionExplorer": false
 }
