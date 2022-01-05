@@ -19,3 +19,4 @@ C:\Users\nenad\Desktop\Project\si2021-projekat-nosferatu\ProjectNosferatu\Presen
 C:\Users\nenad\Desktop\Project\si2021-projekat-nosferatu\ProjectNosferatu\PresentationLayer\obj\Debug\PresentationLayer.pdb
 C:\Users\nenad\Desktop\Project\si2021-projekat-nosferatu\ProjectNosferatu\PresentationLayer\obj\Debug\PresentationLayer.Login.resources
 C:\Users\nenad\Desktop\Project\si2021-projekat-nosferatu\ProjectNosferatu\PresentationLayer\obj\Debug\PresentationLayer.MainWindow.resources
+C:\Users\nenad\Desktop\Project\si2021-projekat-nosferatu\ProjectNosferatu\PresentationLayer\obj\Debug\PresentationLayer.PatientsWindow.resources

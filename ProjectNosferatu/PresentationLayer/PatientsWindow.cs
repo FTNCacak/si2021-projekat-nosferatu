@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PresentationLayer
 {
-    public partial class MainWindow : Form
+    public partial class PatientsWindow : Form
     {
-        public MainWindow()
+        public PatientsWindow()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
