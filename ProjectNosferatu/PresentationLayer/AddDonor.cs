@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace PresentationLayer
 {
-    public partial class MainWindow : Form
+    public partial class AddDonor : Form
     {
-        public MainWindow()
+        public AddDonor()
         {
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void genderComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

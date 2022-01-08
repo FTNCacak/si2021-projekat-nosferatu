@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace PresentationLayer
 {
-    public partial class MainWindow : Form
+    public partial class Stock : Form
     {
-        public MainWindow()
+        public Stock()
         {
             InitializeComponent();
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
