@@ -41,17 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <<<<<<< PresentationLayerDev
-=======
-    <Compile Include="Banka_krviRepository.cs" />
-    <Compile Include="DonorRepository.cs" />
-    <Compile Include="Models\Banka_krvi.cs" />
-    <Compile Include="Models\Donor.cs" />
-    <Compile Include="Models\Pacijent.cs" />
-    <Compile Include="Models\Radnik.cs" />
-    <Compile Include="Models\Transfer.cs" />
-    <Compile Include="PacijentRepository.cs" />
->>>>>>> development
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
