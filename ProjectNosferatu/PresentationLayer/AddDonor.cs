@@ -31,5 +31,24 @@ namespace PresentationLayer
         {
 
         }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+            if (nameTextBox.Text == "" || phoneTextBox.Text == "" || ageTextBox.Text == "" || genderComboBox.SelectedIndex == -1 || bloodTypeComboBox.SelectedIndex == -1)
+            {
+                MessageBox.Show("Missing Information");
+            }
+            else
+            {
+                try
+                {
+
+                }
+                catch(Exception Ex)
+                {
+                    MessageBox.Show(Ex.Message);
+                }
+            }
+        }
     }
 }

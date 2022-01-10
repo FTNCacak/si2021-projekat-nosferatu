@@ -37,30 +37,45 @@ namespace PresentationLayer
             this.label1 = new System.Windows.Forms.Label();
             this.DonorsButton = new System.Windows.Forms.Panel();
             this.donorsLabel = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.donorsDataGrid = new System.Windows.Forms.DataGridView();
             this.addDonorsButton = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.submitButton = new System.Windows.Forms.Button();
+            this.adressTextBox = new System.Windows.Forms.TextBox();
+            this.bloodTypeComboBox = new System.Windows.Forms.ComboBox();
+            this.genderComboBox = new System.Windows.Forms.ComboBox();
+            this.phoneLabel = new System.Windows.Forms.Label();
+            this.phoneTextBox = new System.Windows.Forms.TextBox();
+            this.ageLabel = new System.Windows.Forms.Label();
+            this.ageTextBox = new System.Windows.Forms.TextBox();
+            this.adressLabel = new System.Windows.Forms.Label();
+            this.bloodTypeLabel = new System.Windows.Forms.Label();
+            this.genderLabel = new System.Windows.Forms.Label();
+            this.nameLabel = new System.Windows.Forms.Label();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.donorsIcon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.patientsButton.SuspendLayout();
             this.DonorsButton.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donorsDataGrid)).BeginInit();
             this.addDonorsButton.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.donorsIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -136,16 +151,16 @@ namespace PresentationLayer
             this.donorsLabel.TabIndex = 1;
             this.donorsLabel.Text = "Donors";
             // 
-            // dataGridView1
+            // donorsDataGrid
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(299, 140);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1030, 534);
-            this.dataGridView1.TabIndex = 1;
+            this.donorsDataGrid.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.donorsDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.donorsDataGrid.Location = new System.Drawing.Point(299, 292);
+            this.donorsDataGrid.Name = "donorsDataGrid";
+            this.donorsDataGrid.RowHeadersWidth = 51;
+            this.donorsDataGrid.RowTemplate.Height = 24;
+            this.donorsDataGrid.Size = new System.Drawing.Size(1030, 386);
+            this.donorsDataGrid.TabIndex = 1;
             // 
             // addDonorsButton
             // 
@@ -167,6 +182,206 @@ namespace PresentationLayer
             this.label4.TabIndex = 1;
             this.label4.Text = "Add donors";
             this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Location = new System.Drawing.Point(887, 48);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(407, 70);
+            this.panel2.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(101)))));
+            this.label3.Location = new System.Drawing.Point(92, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(304, 51);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Make a donation";
+            this.label3.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.button1.Location = new System.Drawing.Point(1089, 214);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(157, 45);
+            this.button1.TabIndex = 47;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // submitButton
+            // 
+            this.submitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
+            this.submitButton.FlatAppearance.BorderSize = 0;
+            this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.submitButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.submitButton.Location = new System.Drawing.Point(912, 214);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(157, 45);
+            this.submitButton.TabIndex = 48;
+            this.submitButton.Text = "Edit";
+            this.submitButton.UseVisualStyleBackColor = false;
+            // 
+            // adressTextBox
+            // 
+            this.adressTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.adressTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.adressTextBox.Location = new System.Drawing.Point(303, 214);
+            this.adressTextBox.Multiline = true;
+            this.adressTextBox.Name = "adressTextBox";
+            this.adressTextBox.Size = new System.Drawing.Size(519, 47);
+            this.adressTextBox.TabIndex = 46;
+            // 
+            // bloodTypeComboBox
+            // 
+            this.bloodTypeComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.bloodTypeComboBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bloodTypeComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.bloodTypeComboBox.FormattingEnabled = true;
+            this.bloodTypeComboBox.Items.AddRange(new object[] {
+            "A+",
+            "O+",
+            "B+",
+            "AB+",
+            "A-",
+            "O-"});
+            this.bloodTypeComboBox.Location = new System.Drawing.Point(873, 144);
+            this.bloodTypeComboBox.Name = "bloodTypeComboBox";
+            this.bloodTypeComboBox.Size = new System.Drawing.Size(205, 45);
+            this.bloodTypeComboBox.TabIndex = 44;
+            // 
+            // genderComboBox
+            // 
+            this.genderComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.genderComboBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genderComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.genderComboBox.FormattingEnabled = true;
+            this.genderComboBox.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.genderComboBox.Location = new System.Drawing.Point(1089, 144);
+            this.genderComboBox.Name = "genderComboBox";
+            this.genderComboBox.Size = new System.Drawing.Size(205, 45);
+            this.genderComboBox.TabIndex = 45;
+            // 
+            // phoneLabel
+            // 
+            this.phoneLabel.AutoSize = true;
+            this.phoneLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.phoneLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.phoneLabel.Location = new System.Drawing.Point(678, 119);
+            this.phoneLabel.Name = "phoneLabel";
+            this.phoneLabel.Size = new System.Drawing.Size(137, 25);
+            this.phoneLabel.TabIndex = 38;
+            this.phoneLabel.Text = "Phone number";
+            // 
+            // phoneTextBox
+            // 
+            this.phoneTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.phoneTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.phoneTextBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phoneTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.phoneTextBox.Location = new System.Drawing.Point(683, 147);
+            this.phoneTextBox.Name = "phoneTextBox";
+            this.phoneTextBox.Size = new System.Drawing.Size(179, 36);
+            this.phoneTextBox.TabIndex = 35;
+            // 
+            // ageLabel
+            // 
+            this.ageLabel.AutoSize = true;
+            this.ageLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.ageLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.ageLabel.Location = new System.Drawing.Point(487, 119);
+            this.ageLabel.Name = "ageLabel";
+            this.ageLabel.Size = new System.Drawing.Size(45, 25);
+            this.ageLabel.TabIndex = 39;
+            this.ageLabel.Text = "Age";
+            // 
+            // ageTextBox
+            // 
+            this.ageTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.ageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.ageTextBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ageTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.ageTextBox.Location = new System.Drawing.Point(492, 147);
+            this.ageTextBox.Name = "ageTextBox";
+            this.ageTextBox.Size = new System.Drawing.Size(179, 36);
+            this.ageTextBox.TabIndex = 36;
+            // 
+            // adressLabel
+            // 
+            this.adressLabel.AutoSize = true;
+            this.adressLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.adressLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.adressLabel.Location = new System.Drawing.Point(298, 186);
+            this.adressLabel.Name = "adressLabel";
+            this.adressLabel.Size = new System.Drawing.Size(68, 25);
+            this.adressLabel.TabIndex = 40;
+            this.adressLabel.Text = "Adress";
+            // 
+            // bloodTypeLabel
+            // 
+            this.bloodTypeLabel.AutoSize = true;
+            this.bloodTypeLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.bloodTypeLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bloodTypeLabel.Location = new System.Drawing.Point(868, 119);
+            this.bloodTypeLabel.Name = "bloodTypeLabel";
+            this.bloodTypeLabel.Size = new System.Drawing.Size(105, 25);
+            this.bloodTypeLabel.TabIndex = 41;
+            this.bloodTypeLabel.Text = "Blood Type";
+            // 
+            // genderLabel
+            // 
+            this.genderLabel.AutoSize = true;
+            this.genderLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.genderLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.genderLabel.Location = new System.Drawing.Point(1084, 119);
+            this.genderLabel.Name = "genderLabel";
+            this.genderLabel.Size = new System.Drawing.Size(74, 25);
+            this.genderLabel.TabIndex = 42;
+            this.genderLabel.Text = "Gender";
+            // 
+            // nameLabel
+            // 
+            this.nameLabel.AutoSize = true;
+            this.nameLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.nameLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.nameLabel.Location = new System.Drawing.Point(298, 119);
+            this.nameLabel.Name = "nameLabel";
+            this.nameLabel.Size = new System.Drawing.Size(62, 25);
+            this.nameLabel.TabIndex = 43;
+            this.nameLabel.Text = "Name";
+            // 
+            // nameTextBox
+            // 
+            this.nameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.nameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.nameTextBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.nameTextBox.Location = new System.Drawing.Point(303, 147);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(179, 36);
+            this.nameTextBox.TabIndex = 37;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(22, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(64, 67);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -218,36 +433,16 @@ namespace PresentationLayer
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // panel2
+            // label5
             // 
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Location = new System.Drawing.Point(922, 48);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(407, 70);
-            this.panel2.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(101)))));
-            this.label3.Location = new System.Drawing.Point(92, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(304, 51);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Make a donation";
-            this.label3.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(22, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(64, 67);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.label5.Location = new System.Drawing.Point(1301, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 46);
+            this.label5.TabIndex = 49;
+            this.label5.Text = "X";
             // 
             // MainWindow
             // 
@@ -255,9 +450,24 @@ namespace PresentationLayer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.ClientSize = new System.Drawing.Size(1353, 700);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.submitButton);
+            this.Controls.Add(this.adressTextBox);
+            this.Controls.Add(this.bloodTypeComboBox);
+            this.Controls.Add(this.genderComboBox);
+            this.Controls.Add(this.phoneLabel);
+            this.Controls.Add(this.phoneTextBox);
+            this.Controls.Add(this.ageLabel);
+            this.Controls.Add(this.ageTextBox);
+            this.Controls.Add(this.adressLabel);
+            this.Controls.Add(this.bloodTypeLabel);
+            this.Controls.Add(this.genderLabel);
+            this.Controls.Add(this.nameLabel);
+            this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.addDonorsButton);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.donorsDataGrid);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
@@ -272,18 +482,19 @@ namespace PresentationLayer
             this.patientsButton.PerformLayout();
             this.DonorsButton.ResumeLayout(false);
             this.DonorsButton.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donorsDataGrid)).EndInit();
             this.addDonorsButton.ResumeLayout(false);
             this.addDonorsButton.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.donorsIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -300,12 +511,27 @@ namespace PresentationLayer
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView donorsDataGrid;
         private System.Windows.Forms.Panel addDonorsButton;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.TextBox adressTextBox;
+        private System.Windows.Forms.ComboBox bloodTypeComboBox;
+        private System.Windows.Forms.ComboBox genderComboBox;
+        private System.Windows.Forms.Label phoneLabel;
+        private System.Windows.Forms.TextBox phoneTextBox;
+        private System.Windows.Forms.Label ageLabel;
+        private System.Windows.Forms.TextBox ageTextBox;
+        private System.Windows.Forms.Label adressLabel;
+        private System.Windows.Forms.Label bloodTypeLabel;
+        private System.Windows.Forms.Label genderLabel;
+        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.TextBox nameTextBox;
+        private System.Windows.Forms.Label label5;
     }
 }

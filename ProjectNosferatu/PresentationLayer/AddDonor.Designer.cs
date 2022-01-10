@@ -43,6 +43,7 @@ namespace PresentationLayer
             this.adressTextBox = new System.Windows.Forms.TextBox();
             this.adressLabel = new System.Windows.Forms.Label();
             this.submitButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // nameTextBox
@@ -215,6 +216,17 @@ namespace PresentationLayer
             this.submitButton.TabIndex = 7;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = false;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(562, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 46);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "X";
             // 
             // AddDonor
             // 
@@ -222,6 +234,7 @@ namespace PresentationLayer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
             this.ClientSize = new System.Drawing.Size(614, 661);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.submitButton);
             this.Controls.Add(this.adressTextBox);
             this.Controls.Add(this.bloodTypeComboBox);
@@ -262,5 +275,6 @@ namespace PresentationLayer
         private System.Windows.Forms.TextBox adressTextBox;
         private System.Windows.Forms.Label adressLabel;
         private System.Windows.Forms.Button submitButton;
+        private System.Windows.Forms.Label label1;
     }
 }

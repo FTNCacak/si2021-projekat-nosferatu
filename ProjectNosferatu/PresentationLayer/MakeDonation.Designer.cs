@@ -1,7 +1,7 @@
 ﻿
 namespace PresentationLayer
 {
-    partial class AddPatient
+    partial class MakeDonation
     {
         /// <summary>
         /// Required designer variable.
@@ -30,19 +30,13 @@ namespace PresentationLayer
         private void InitializeComponent()
         {
             this.submitButton = new System.Windows.Forms.Button();
-            this.adressTextBox = new System.Windows.Forms.TextBox();
             this.bloodTypeComboBox = new System.Windows.Forms.ComboBox();
             this.genderComboBox = new System.Windows.Forms.ComboBox();
             this.titleLable = new System.Windows.Forms.Label();
-            this.phoneLabel = new System.Windows.Forms.Label();
-            this.phoneTextBox = new System.Windows.Forms.TextBox();
             this.ageLabel = new System.Windows.Forms.Label();
             this.ageTextBox = new System.Windows.Forms.TextBox();
-            this.adressLabel = new System.Windows.Forms.Label();
             this.bloodTypeLabel = new System.Windows.Forms.Label();
-            this.genderLabel = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
-            this.nameTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -53,24 +47,12 @@ namespace PresentationLayer
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitButton.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.submitButton.Location = new System.Drawing.Point(42, 589);
+            this.submitButton.Location = new System.Drawing.Point(42, 380);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(516, 45);
-            this.submitButton.TabIndex = 21;
+            this.submitButton.TabIndex = 35;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = false;
-            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
-            // 
-            // adressTextBox
-            // 
-            this.adressTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.adressTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.adressTextBox.Location = new System.Drawing.Point(42, 442);
-            this.adressTextBox.Multiline = true;
-            this.adressTextBox.Name = "adressTextBox";
-            this.adressTextBox.Size = new System.Drawing.Size(519, 96);
-            this.adressTextBox.TabIndex = 20;
-            this.adressTextBox.TextChanged += new System.EventHandler(this.adressTextBox_TextChanged);
             // 
             // bloodTypeComboBox
             // 
@@ -85,11 +67,10 @@ namespace PresentationLayer
             "AB+",
             "A-",
             "O-"});
-            this.bloodTypeComboBox.Location = new System.Drawing.Point(353, 280);
+            this.bloodTypeComboBox.Location = new System.Drawing.Point(209, 278);
             this.bloodTypeComboBox.Name = "bloodTypeComboBox";
             this.bloodTypeComboBox.Size = new System.Drawing.Size(205, 45);
-            this.bloodTypeComboBox.TabIndex = 18;
-            this.bloodTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.bloodTypeComboBox_SelectedIndexChanged);
+            this.bloodTypeComboBox.TabIndex = 32;
             // 
             // genderComboBox
             // 
@@ -100,58 +81,31 @@ namespace PresentationLayer
             this.genderComboBox.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.genderComboBox.Location = new System.Drawing.Point(353, 174);
+            this.genderComboBox.Location = new System.Drawing.Point(42, 177);
             this.genderComboBox.Name = "genderComboBox";
             this.genderComboBox.Size = new System.Drawing.Size(205, 45);
-            this.genderComboBox.TabIndex = 19;
-            this.genderComboBox.SelectedIndexChanged += new System.EventHandler(this.genderComboBox_SelectedIndexChanged);
+            this.genderComboBox.TabIndex = 33;
             // 
             // titleLable
             // 
             this.titleLable.AutoSize = true;
             this.titleLable.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLable.Location = new System.Drawing.Point(147, 34);
+            this.titleLable.Location = new System.Drawing.Point(78, 33);
             this.titleLable.Name = "titleLable";
-            this.titleLable.Size = new System.Drawing.Size(343, 81);
-            this.titleLable.TabIndex = 17;
-            this.titleLable.Text = "Add Patient";
-            this.titleLable.Click += new System.EventHandler(this.titleLable_Click);
-            // 
-            // phoneLabel
-            // 
-            this.phoneLabel.AutoSize = true;
-            this.phoneLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.phoneLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.phoneLabel.Location = new System.Drawing.Point(37, 318);
-            this.phoneLabel.Name = "phoneLabel";
-            this.phoneLabel.Size = new System.Drawing.Size(137, 25);
-            this.phoneLabel.TabIndex = 11;
-            this.phoneLabel.Text = "Phone number";
-            this.phoneLabel.Click += new System.EventHandler(this.phoneLabel_Click);
-            // 
-            // phoneTextBox
-            // 
-            this.phoneTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.phoneTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.phoneTextBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.phoneTextBox.Location = new System.Drawing.Point(42, 346);
-            this.phoneTextBox.Name = "phoneTextBox";
-            this.phoneTextBox.Size = new System.Drawing.Size(179, 36);
-            this.phoneTextBox.TabIndex = 8;
-            this.phoneTextBox.TextChanged += new System.EventHandler(this.phoneTextBox_TextChanged);
+            this.titleLable.Size = new System.Drawing.Size(483, 81);
+            this.titleLable.TabIndex = 31;
+            this.titleLable.Text = "Make a donation";
             // 
             // ageLabel
             // 
             this.ageLabel.AutoSize = true;
             this.ageLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.ageLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.ageLabel.Location = new System.Drawing.Point(37, 227);
+            this.ageLabel.Location = new System.Drawing.Point(348, 149);
             this.ageLabel.Name = "ageLabel";
-            this.ageLabel.Size = new System.Drawing.Size(45, 25);
-            this.ageLabel.TabIndex = 12;
-            this.ageLabel.Text = "Age";
-            this.ageLabel.Click += new System.EventHandler(this.ageLabel_Click);
+            this.ageLabel.Size = new System.Drawing.Size(122, 25);
+            this.ageLabel.TabIndex = 26;
+            this.ageLabel.Text = "Patient name";
             // 
             // ageTextBox
             // 
@@ -159,47 +113,21 @@ namespace PresentationLayer
             this.ageTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ageTextBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ageTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.ageTextBox.Location = new System.Drawing.Point(42, 255);
+            this.ageTextBox.Location = new System.Drawing.Point(353, 177);
             this.ageTextBox.Name = "ageTextBox";
             this.ageTextBox.Size = new System.Drawing.Size(179, 36);
-            this.ageTextBox.TabIndex = 9;
-            this.ageTextBox.TextChanged += new System.EventHandler(this.ageTextBox_TextChanged);
-            // 
-            // adressLabel
-            // 
-            this.adressLabel.AutoSize = true;
-            this.adressLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.adressLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.adressLabel.Location = new System.Drawing.Point(37, 414);
-            this.adressLabel.Name = "adressLabel";
-            this.adressLabel.Size = new System.Drawing.Size(68, 25);
-            this.adressLabel.TabIndex = 13;
-            this.adressLabel.Text = "Adress";
-            this.adressLabel.Click += new System.EventHandler(this.adressLabel_Click);
+            this.ageTextBox.TabIndex = 23;
             // 
             // bloodTypeLabel
             // 
             this.bloodTypeLabel.AutoSize = true;
             this.bloodTypeLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.bloodTypeLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.bloodTypeLabel.Location = new System.Drawing.Point(348, 255);
+            this.bloodTypeLabel.Location = new System.Drawing.Point(204, 253);
             this.bloodTypeLabel.Name = "bloodTypeLabel";
             this.bloodTypeLabel.Size = new System.Drawing.Size(105, 25);
-            this.bloodTypeLabel.TabIndex = 14;
+            this.bloodTypeLabel.TabIndex = 28;
             this.bloodTypeLabel.Text = "Blood Type";
-            this.bloodTypeLabel.Click += new System.EventHandler(this.bloodTypeLabel_Click);
-            // 
-            // genderLabel
-            // 
-            this.genderLabel.AutoSize = true;
-            this.genderLabel.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.genderLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.genderLabel.Location = new System.Drawing.Point(348, 149);
-            this.genderLabel.Name = "genderLabel";
-            this.genderLabel.Size = new System.Drawing.Size(74, 25);
-            this.genderLabel.TabIndex = 15;
-            this.genderLabel.Text = "Gender";
-            this.genderLabel.Click += new System.EventHandler(this.genderLabel_Click);
             // 
             // nameLabel
             // 
@@ -208,22 +136,9 @@ namespace PresentationLayer
             this.nameLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.nameLabel.Location = new System.Drawing.Point(37, 149);
             this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(62, 25);
-            this.nameLabel.TabIndex = 16;
-            this.nameLabel.Text = "Name";
-            this.nameLabel.Click += new System.EventHandler(this.nameLabel_Click);
-            // 
-            // nameTextBox
-            // 
-            this.nameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.nameTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nameTextBox.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameTextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.nameTextBox.Location = new System.Drawing.Point(42, 177);
-            this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(179, 36);
-            this.nameTextBox.TabIndex = 10;
-            this.nameTextBox.TextChanged += new System.EventHandler(this.nameTextBox_TextChanged);
+            this.nameLabel.Size = new System.Drawing.Size(93, 25);
+            this.nameLabel.TabIndex = 30;
+            this.nameLabel.Text = "Patient ID";
             // 
             // label1
             // 
@@ -232,36 +147,30 @@ namespace PresentationLayer
             this.label1.Location = new System.Drawing.Point(562, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 46);
-            this.label1.TabIndex = 37;
+            this.label1.TabIndex = 36;
             this.label1.Text = "X";
             // 
-            // AddPatient
+            // MakeDonation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(19)))), ((int)(((byte)(19)))));
-            this.ClientSize = new System.Drawing.Size(614, 661);
+            this.ClientSize = new System.Drawing.Size(614, 469);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.submitButton);
-            this.Controls.Add(this.adressTextBox);
             this.Controls.Add(this.bloodTypeComboBox);
             this.Controls.Add(this.genderComboBox);
             this.Controls.Add(this.titleLable);
-            this.Controls.Add(this.phoneLabel);
-            this.Controls.Add(this.phoneTextBox);
             this.Controls.Add(this.ageLabel);
             this.Controls.Add(this.ageTextBox);
-            this.Controls.Add(this.adressLabel);
             this.Controls.Add(this.bloodTypeLabel);
-            this.Controls.Add(this.genderLabel);
             this.Controls.Add(this.nameLabel);
-            this.Controls.Add(this.nameTextBox);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AddPatient";
+            this.Name = "MakeDonation";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddPatient";
+            this.Text = "Make Donation";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,19 +179,13 @@ namespace PresentationLayer
         #endregion
 
         private System.Windows.Forms.Button submitButton;
-        private System.Windows.Forms.TextBox adressTextBox;
         private System.Windows.Forms.ComboBox bloodTypeComboBox;
         private System.Windows.Forms.ComboBox genderComboBox;
         private System.Windows.Forms.Label titleLable;
-        private System.Windows.Forms.Label phoneLabel;
-        private System.Windows.Forms.TextBox phoneTextBox;
         private System.Windows.Forms.Label ageLabel;
         private System.Windows.Forms.TextBox ageTextBox;
-        private System.Windows.Forms.Label adressLabel;
         private System.Windows.Forms.Label bloodTypeLabel;
-        private System.Windows.Forms.Label genderLabel;
         private System.Windows.Forms.Label nameLabel;
-        private System.Windows.Forms.TextBox nameTextBox;
         private System.Windows.Forms.Label label1;
     }
 }
