@@ -47,6 +47,7 @@ namespace Nosfteratu
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.Size = new System.Drawing.Size(417, 35);
             this.textBoxPassword.TabIndex = 0;
+            this.textBoxPassword.UseSystemPasswordChar = true;
             // 
             // buttonClick
             // 
