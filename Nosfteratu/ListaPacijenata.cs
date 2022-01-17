@@ -44,16 +44,16 @@ namespace Nosfteratu
                 textBoxID.Clear();
                 textBoxIme.Clear();
                 textBoxPrezime.Clear();
-                comboBoxPol.Text = "";
-                comboBoxKrv.Text = "";
+                comboBoxPol.SelectedIndex = -1;
+                comboBoxKrv.SelectedIndex = -1;
                 textBoxTelefon.Text = "";
                 richTextBoxAdresa.Text = "";
                 dateTimePicker1.Value = DateTime.Now;
             }
-            catch(Exception ex)
+            catch
             {
 
-                MessageBox.Show(ex.Message);
+              
             }
         }
 
@@ -69,21 +69,26 @@ namespace Nosfteratu
             }
         }
 
+     
+
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            int Id = int.Parse(textBoxID.Text);
+            try
+            {
+                int Id = int.Parse(textBoxID.Text);
 
-            string result = this.pacijentBusiness.DeletePacijent(Id);
-
-            textBoxID.Clear();
-            textBoxIme.Clear();
-            textBoxPrezime.Clear();
-            comboBoxPol.Text = "";
-            comboBoxKrv.Text = "";
-            textBoxTelefon.Text = "";
-            richTextBoxAdresa.Text = "";
-            dateTimePicker1.Value = DateTime.Now;
-
+                string result = this.pacijentBusiness.DeletePacijent(Id);
+                this.dataGridView1.DataSource = pacijentBusiness.GetAllPacijent();
+                textBoxID.Clear();
+                textBoxIme.Clear();
+                textBoxPrezime.Clear();
+                comboBoxPol.Text = "";
+                comboBoxKrv.Text = "";
+                textBoxTelefon.Text = "";
+                richTextBoxAdresa.Text = "";
+                dateTimePicker1.Value = DateTime.Now;
+            }
+            catch { }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -113,7 +118,7 @@ namespace Nosfteratu
         private void buttonTransfer_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Transfer cf = new Transfer();
+            Transferi cf = new Transferi();
             cf.Visible = true;
         }
 
@@ -138,19 +143,19 @@ namespace Nosfteratu
 
         private void label14_Click(object sender, EventArgs e)
         {
-            Transfer cf = new Transfer();
+            Transferi cf = new Transferi();
             cf.Visible = true;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Transfer cf = new Transfer();
+            Transferi cf = new Transferi();
             cf.Visible = true;
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void donorsIcon_Click(object sender, EventArgs e)

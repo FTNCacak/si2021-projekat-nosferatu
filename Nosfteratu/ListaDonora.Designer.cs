@@ -29,6 +29,8 @@ namespace Nosfteratu
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonUpdate = new System.Windows.Forms.Button();
@@ -81,11 +83,31 @@ namespace Nosfteratu
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.dataGridView1.Location = new System.Drawing.Point(311, 308);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(995, 329);
@@ -134,10 +156,12 @@ namespace Nosfteratu
             // comboBoxKrv
             // 
             this.comboBoxKrv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.comboBoxKrv.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxKrv.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBoxKrv.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.comboBoxKrv.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.comboBoxKrv.FormattingEnabled = true;
+            this.comboBoxKrv.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.comboBoxKrv.Items.AddRange(new object[] {
             "A+",
             "A-",
@@ -155,6 +179,7 @@ namespace Nosfteratu
             // comboBoxPol
             // 
             this.comboBoxPol.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.comboBoxPol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPol.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBoxPol.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.comboBoxPol.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
@@ -216,7 +241,6 @@ namespace Nosfteratu
             // 
             this.textBoxID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.textBoxID.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxID.Enabled = false;
             this.textBoxID.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.textBoxID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.textBoxID.Location = new System.Drawing.Point(311, 125);
@@ -331,9 +355,9 @@ namespace Nosfteratu
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(93)))), ((int)(((byte)(101)))));
             this.label11.Location = new System.Drawing.Point(92, 17);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(122, 41);
+            this.label11.Size = new System.Drawing.Size(127, 41);
             this.label11.TabIndex = 1;
-            this.label11.Text = "Patients";
+            this.label11.Text = "Pacijenti";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // pictureBox2
@@ -366,9 +390,9 @@ namespace Nosfteratu
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(27)))), ((int)(((byte)(28)))));
             this.label13.Location = new System.Drawing.Point(92, 17);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(115, 41);
+            this.label13.Size = new System.Drawing.Size(109, 41);
             this.label13.TabIndex = 1;
-            this.label13.Text = "Donors";
+            this.label13.Text = "Donori";
             // 
             // donorsLabel
             // 
@@ -469,7 +493,7 @@ namespace Nosfteratu
             this.addDonorsButton.Controls.Add(this.pictureBox4);
             this.addDonorsButton.Location = new System.Drawing.Point(359, 15);
             this.addDonorsButton.Name = "addDonorsButton";
-            this.addDonorsButton.Size = new System.Drawing.Size(308, 70);
+            this.addDonorsButton.Size = new System.Drawing.Size(342, 70);
             this.addDonorsButton.TabIndex = 76;
             this.addDonorsButton.Paint += new System.Windows.Forms.PaintEventHandler(this.addDonorsButton_Paint);
             // 
@@ -555,8 +579,6 @@ namespace Nosfteratu
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonUpdate;
         private System.Windows.Forms.RichTextBox richTextBoxAdresa;
@@ -593,5 +615,6 @@ namespace Nosfteratu
         private System.Windows.Forms.Panel addDonorsButton;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.PictureBox pictureBox4;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }

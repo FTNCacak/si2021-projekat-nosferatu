@@ -50,6 +50,7 @@ namespace Nosfteratu
                 return;
             }
             
+
             Donor don = new Donor();
 
             don.Ime = textBoxIme.Text;
@@ -107,13 +108,15 @@ namespace Nosfteratu
         private void buttonTransfer_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Transfer cf = new Transfer();
+            Transferi cf = new Transferi();
             cf.Visible = true;
         }
 
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+            ListaDonora cf = new ListaDonora();
+            cf.Visible = true;
         }
     }
 }

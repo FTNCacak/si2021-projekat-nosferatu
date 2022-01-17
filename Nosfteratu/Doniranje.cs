@@ -83,6 +83,8 @@ namespace Nosfteratu
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+            ListaDonora cf = new ListaDonora();
+            cf.Visible = true;
         }
     }
 }

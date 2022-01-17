@@ -175,6 +175,7 @@ namespace Nosfteratu
             // 
             this.textBoxID.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.textBoxID.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxID.Enabled = false;
             this.textBoxID.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.textBoxID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.textBoxID.Location = new System.Drawing.Point(472, 90);

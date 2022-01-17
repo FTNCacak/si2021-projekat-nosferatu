@@ -56,7 +56,7 @@ namespace Nosfteratu
             this.buttonInsert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonInsert.Font = new System.Drawing.Font("Segoe UI", 13.8F);
             this.buttonInsert.Location = new System.Drawing.Point(54, 586);
-            this.buttonInsert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonInsert.Margin = new System.Windows.Forms.Padding(4);
             this.buttonInsert.Name = "buttonInsert";
             this.buttonInsert.Size = new System.Drawing.Size(508, 52);
             this.buttonInsert.TabIndex = 32;
@@ -71,7 +71,7 @@ namespace Nosfteratu
             this.richTextBoxAdresa.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.richTextBoxAdresa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.richTextBoxAdresa.Location = new System.Drawing.Point(57, 445);
-            this.richTextBoxAdresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBoxAdresa.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBoxAdresa.Name = "richTextBoxAdresa";
             this.richTextBoxAdresa.Size = new System.Drawing.Size(505, 124);
             this.richTextBoxAdresa.TabIndex = 31;
@@ -94,7 +94,7 @@ namespace Nosfteratu
             "O+",
             "O-"});
             this.comboBoxKrv.Location = new System.Drawing.Point(346, 299);
-            this.comboBoxKrv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxKrv.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxKrv.Name = "comboBoxKrv";
             this.comboBoxKrv.Size = new System.Drawing.Size(212, 45);
             this.comboBoxKrv.TabIndex = 30;
@@ -110,7 +110,7 @@ namespace Nosfteratu
             "Musko",
             "Zensko"});
             this.comboBoxPol.Location = new System.Drawing.Point(346, 206);
-            this.comboBoxPol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxPol.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxPol.Name = "comboBoxPol";
             this.comboBoxPol.Size = new System.Drawing.Size(212, 45);
             this.comboBoxPol.TabIndex = 29;
@@ -120,7 +120,7 @@ namespace Nosfteratu
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 10.8F);
             this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 10.8F);
             this.dateTimePicker1.Location = new System.Drawing.Point(57, 370);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(291, 31);
             this.dateTimePicker1.TabIndex = 28;
@@ -133,7 +133,7 @@ namespace Nosfteratu
             this.textBoxTelefon.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.textBoxTelefon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.textBoxTelefon.Location = new System.Drawing.Point(346, 137);
-            this.textBoxTelefon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxTelefon.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxTelefon.Name = "textBoxTelefon";
             this.textBoxTelefon.Size = new System.Drawing.Size(212, 36);
             this.textBoxTelefon.TabIndex = 27;
@@ -145,7 +145,7 @@ namespace Nosfteratu
             this.textBoxPrezime.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.textBoxPrezime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.textBoxPrezime.Location = new System.Drawing.Point(54, 275);
-            this.textBoxPrezime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxPrezime.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxPrezime.Name = "textBoxPrezime";
             this.textBoxPrezime.Size = new System.Drawing.Size(212, 36);
             this.textBoxPrezime.TabIndex = 26;
@@ -157,7 +157,7 @@ namespace Nosfteratu
             this.textBoxIme.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.textBoxIme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.textBoxIme.Location = new System.Drawing.Point(54, 206);
-            this.textBoxIme.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxIme.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxIme.Name = "textBoxIme";
             this.textBoxIme.Size = new System.Drawing.Size(212, 36);
             this.textBoxIme.TabIndex = 25;
@@ -170,7 +170,7 @@ namespace Nosfteratu
             this.textBoxID.Font = new System.Drawing.Font("Segoe UI", 16.2F);
             this.textBoxID.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(221)))), ((int)(((byte)(221)))));
             this.textBoxID.Location = new System.Drawing.Point(57, 137);
-            this.textBoxID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxID.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Size = new System.Drawing.Size(212, 36);
             this.textBoxID.TabIndex = 24;
@@ -313,10 +313,11 @@ namespace Nosfteratu
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AddPatient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddPatient";
+            this.Load += new System.EventHandler(this.AddPatient_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

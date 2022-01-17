@@ -26,6 +26,7 @@ namespace Nosfteratu
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
+
             Donor donor = new Donor();
             donor.Id = Convert.ToInt32(textBoxID.Text);
             donor.Ime = textBoxIme.Text;
@@ -42,8 +43,8 @@ namespace Nosfteratu
             textBoxID.Clear();
             textBoxIme.Clear();
             textBoxPrezime.Clear();
-            comboBoxPol.Text = "";
-            comboBoxKrv.Text = "";
+            comboBoxPol.SelectedIndex=-1;
+            comboBoxKrv.SelectedIndex = -1;
             textBoxTelefon.Text = "";
             richTextBoxAdresa.Text = "";
             dateTimePicker1.Value = DateTime.Now;
@@ -54,6 +55,7 @@ namespace Nosfteratu
             int Id = int.Parse(textBoxID.Text);
 
             string result = this.donorBusiness.DeleteDonor(Id);
+            this.dataGridView1.DataSource = donorBusiness.GetAllDonors();
             textBoxID.Clear();
             textBoxIme.Clear();
             textBoxPrezime.Clear();
@@ -97,19 +99,20 @@ namespace Nosfteratu
                 textBoxTelefon.Text = telefon;
                 richTextBoxAdresa.Text = adresa;
                 comboBoxKrv.Text = krv;
+
             }
         }
 
         private void buttonDonation_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             Doniranje cf = new Doniranje();
             cf.Visible = true;
         }
 
         private void buttonDonor_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
             AddDonor cf = new AddDonor();
             cf.Visible = true;
         }
@@ -121,7 +124,7 @@ namespace Nosfteratu
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void addDonorsButton_Paint(object sender, PaintEventArgs e)

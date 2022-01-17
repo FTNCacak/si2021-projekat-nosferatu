@@ -26,6 +26,11 @@ namespace Nosfteratu
 
         private void buttonUpdate_Click(object sender, EventArgs e)
         {
+            if (textBoxUserName.Text == "" || textBoxPassword.Text == "")
+            {
+                MessageBox.Show("Please fullfill whole form!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             Radnik radnik = new Radnik();
             radnik.Id = Convert.ToInt32(textBoxID.Text);
             radnik.Korisnicko_ime = textBoxUserName.Text;
@@ -42,6 +47,11 @@ namespace Nosfteratu
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
+            if (textBoxUserName.Text == "" || textBoxPassword.Text == "")
+            {
+                MessageBox.Show("Please fullfill whole form!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             int Id = int.Parse(textBoxID.Text);
 
             string result = this.radnikBusiness.DeleteRadnik(Id);
@@ -53,6 +63,11 @@ namespace Nosfteratu
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
+            if (textBoxUserName.Text == "" || textBoxPassword.Text == "" )
+            {
+                MessageBox.Show("Please fullfill whole form!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             Radnik radnik = new Radnik();
 
            // radnik.Id = Convert.ToInt32(textBoxID.Text);

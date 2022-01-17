@@ -56,7 +56,8 @@ namespace Nosfteratu
             pacijent.Krvna_grupa = comboBoxKrv.Text;
 
             this.pacijentBusiness.InsertPacijent(pacijent);
-
+            pacijentBusiness.GetAllPacijent();
+           // ListaPacijenata.refreshData();
 
 
             textBoxID.Clear();
@@ -72,6 +73,8 @@ namespace Nosfteratu
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+            ListaPacijenata cf = new ListaPacijenata();
+            cf.Visible = true;
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -80,6 +83,11 @@ namespace Nosfteratu
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddPatient_Load(object sender, EventArgs e)
         {
 
         }
