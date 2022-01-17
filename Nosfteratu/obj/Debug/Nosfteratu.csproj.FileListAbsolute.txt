@@ -1,0 +1,72 @@
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Nosfteratu.exe.config
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Nosfteratu.exe
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Nosfteratu.pdb
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.csproj.AssemblyReference.cache
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Properties.Resources.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.csproj.GenerateResource.cache
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.csproj.CoreCompileInputs.cache
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.exe
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.pdb
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\BusinessLayer.dll
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\DataLayer.dll
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Shared.dll
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\BusinessLayer.pdb
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\DataLayer.pdb
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Shared.pdb
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.AddDonor.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.AddPatient.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.ListaPacijenata.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.ListaDonora.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Doniranje.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Transfer.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Login.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Zaposleni.resources
+C:\Users\Aleksa\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Admin.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Nosfteratu.exe.config
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Nosfteratu.exe
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Nosfteratu.pdb
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\BusinessLayer.dll
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\DataLayer.dll
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Shared.dll
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\BusinessLayer.pdb
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\DataLayer.pdb
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\bin\Debug\Shared.pdb
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.csproj.AssemblyReference.cache
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.AddDonor.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.AddPatient.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Admin.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Doniranje.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.ListaDonora.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.ListaPacijenata.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Login.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Properties.Resources.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Zaposleni.resources
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.csproj.GenerateResource.cache
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.csproj.CoreCompileInputs.cache
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.exe
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.pdb
+C:\Users\nenad\Desktop\NosfteratuApp\Nosfteratu\obj\Debug\Nosfteratu.Transferi.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\Nosfteratu.exe.config
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\Nosfteratu.exe
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\Nosfteratu.pdb
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\BusinessLayer.dll
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\DataLayer.dll
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\Shared.dll
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\BusinessLayer.pdb
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\DataLayer.pdb
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\bin\Debug\Shared.pdb
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.csproj.AssemblyReference.cache
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.AddDonor.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.AddPatient.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.Admin.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.Doniranje.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.ListaDonora.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.ListaPacijenata.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.Login.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.Properties.Resources.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.Transferi.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.Zaposleni.resources
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.csproj.GenerateResource.cache
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.csproj.CoreCompileInputs.cache
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.exe
+C:\Users\nenad\Desktop\NosfteratuApp v1.1\Nosfteratu\obj\Debug\Nosfteratu.pdb
