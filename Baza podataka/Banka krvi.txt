@@ -1,0 +1,14 @@
+CREATE TABLE [dbo].[Banka_krvi] (
+    [Krvna_grupa] NVARCHAR (5) NOT NULL,
+    [Zalihe]      INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([Krvna_grupa] ASC)
+);
+
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'A-', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'A+', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'AB-', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'AB+', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'B-', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'B+', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'O-', 0)
+INSERT INTO [dbo].[Banka_krvi] ([Krvna_grupa], [Zalihe]) VALUES (N'O+', 0)

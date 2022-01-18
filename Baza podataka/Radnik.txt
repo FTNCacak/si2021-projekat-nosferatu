@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[Radnik] (
+    [Id]             INT           IDENTITY (1, 1) NOT NULL,
+    [Korisnicko_ime] NVARCHAR (20) NOT NULL,
+    [Sifra]          NVARCHAR (20) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

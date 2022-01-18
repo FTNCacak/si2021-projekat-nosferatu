@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[Transfer] (
+    [Sifra]           INT           NOT NULL,
+     [Ime_pacijenta]   NVARCHAR (20) NOT NULL,
+    [Prezime_pacijenta]   NVARCHAR (20) NOT NULL,
+    [Krvna_grupa]     NVARCHAR (5)  NOT NULL,
+    PRIMARY KEY CLUSTERED ([Sifra] ASC)
+);
